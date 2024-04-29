@@ -1,23 +1,23 @@
-title: Nuxt UI Pro - Landing template
+title: Avalanche Türkiye 🔺
 description: Nuxt UI Pro is a collection of premium Vue components built on top of Nuxt UI to create beautiful & responsive Nuxt applications in minutes.
 hero:
-  title: Build your landing in seconds
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.
+  title: CREATE WITHOUT LIMITS
+  description: Sizi yarı yolda bırakmayacak, ışık hızında, ölçeklenebilir blockchain üzerinde istediğiniz her şeyi, istediğiniz şekilde oluşturun. Yanlış blockchain'i seçmek dApp'inizi başarılı olma şansı bulamadan yok edebilir, ancak bu şekilde olmak zorunda değildir. Avalanche'ı güvenle başlatın.
   headline:
-    label: Made with Nuxt UI Pro
-    to: https://ui.nuxt.com/pro
+    label: Türk Validator Listemiz
+    to: https://validator.avalancheturkiye.com/
     icon: i-heroicons-arrow-top-right-on-square-20-solid
   links:
-    - label: Get started
+    - label: Başlarken
       icon: i-heroicons-arrow-right-20-solid
       trailing: true
       to: '#features'
       size: xl
-    - label: Use this template
+    - label: Sende katkı sağla!
       icon: i-simple-icons-github
       size: xl
       color: gray
-      to: https://github.com/nuxt-ui-pro/landing
+      to: https://github.com/muhammetselimfe/avalanche-turkiye
       target: _blank
 logos:
   title: Trusted by the world's best
@@ -28,8 +28,8 @@ logos:
     - i-simple-icons-vercel
     - i-simple-icons-cloudflare
 features:
-  headline: Features
-  title: Why choose our service?
+  headline: Neden Avalanche?
+  title: WEB3 geliştirme için neden Avalanche'ı seçmelisiniz?
   description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
   items:
     - title: Easy to use
@@ -51,123 +51,112 @@ features:
       description: Lorem deserunt et eiusmod. Ea in consectetur minim officia ullamco enim deserunt est.
       icon: i-heroicons-chart-bar
 pricing:
-  headline: Pricing
-  title: A plan for every need
+  headline: 
+  title: A blockchain for every need
   description: Pariatur laborum dolor ea commodo sit aute aliquip qui et cillum excepteur.
   plans:
-    - title: Basic
-      description: A basic plan for individuals.
-      price: $9.99
-      align: top
-      button:
-        label: Get Started
-        color: gray
-      features:
-        - 1 GB Storage
-        - 1 Email Account
-        - 1 Domain
-        - 1 Website
-        - 1 Database
-        - 1 SSL Certificate
-        - 1 Support Ticket
-    - title: Standard
-      description: A standard plan for small teams.
-      price: $19.99
+    - title: Blazingly Fast
+      description: Avalanche employs the fastest consensus mechanism of any layer 1 blockchain. The unique consensus mechanism enables quick finality and low latency; in less than 2 seconds, your transaction is effectively processed and verified.
+      # price: $9.99
+      # align: top
+      # button:
+      #   label: Get Started
+      #   color: gray
+      # features: 
+        # - 1 GB Storage
+        # - 1 SSL Certificate
+        # - 1 Support Ticket
+    - title: Built to Scale
+      description: Developers who build on Avalanche can build application-specific blockchains with complex rulesets or build on existing private or public Subnets in any language.
+      # price: $19.99
       highlight: true
       scale: true
       align: top
-      button:
-        label: Get Started
-      features:
-        - 10 GB Storage
-        - 10 Email Accounts
-        - 10 Domains
-        - 10 Websites
-        - 10 Databases
-        - 10 SSL Certificates
-        - 10 Support Tickets
-    - title: Premium
-      description: A premium plan for large teams.
-      price: $29.99
-      align: top
-      button:
-        label: Get Started
-        color: gray
-      features:
-        - 100 GB Storage
-        - 100 Email Accounts
-        - 100 Domains
-        - 100 Websites
-        - 100 Databases
-        - 100 SSL Certificates
-        - 100 Support Tickets
+      # button:
+      #   label: Get Started
+      # features:
+        # - 10 GB Storage
+        # - 10 SSL Certificates
+        # - 10 Support Tickets
+    - title: Advanced Security
+      description: Avalanche consensus scales to thousands of concurrent validators without suffering performance degradation making it one of the most secure protocols for internet scaling systems.
+      # price: $29.99
+      # align: top
+      # button:
+      #   label: Get Started
+      #   color: gray
+      # features:
+        # - 100 GB Storage
+        # - 100 SSL Certificates
+        # - 100 Support Tickets
 testimonials:
-  headline: Testimonials
-  title: What our customers are saying.
-  description: Proident sunt exercitation minim laborum enim laboris labore esse.
+  headline: Görüşler
+  title: THE BLOCKCHAIN BUILT TO SCALE
+  description: Users hate waiting. Scaling at the cost of performance or security is not an option. Avalanche’s novel architecture allows for a universe of independent, but interconnected, blockchains that are all validated and kept secure by dynamic subsets of validators. 
   items:
-    - quote: Nostrud tempor sunt fugiat. Dolor in sint dolore labore non occaecat adipisicing Lorem labore ullamco enim excepteur. In fugiat Lorem sit velit id veniam esse eiusmod non ea voluptate cupidatat reprehenderit ullamco dolore. Mollit laborum occaecat aliquip.
+    - quote: Avalanche consensus is well suited for building DeFi applications due to its scalability features, particularly its high throughput and near-instant finality.”
       author:
-        name: Rose Roberson
-        description: CEO at Company
+        name: Stani Kulechov
+        description: Founder of AAVE
         avatar:
-          src: https://i.pravatar.cc/120?img=1
+          src: https://assets-global.website-files.com/632993e1d1acbfa5635afd0b/636ed40aa2ecca2992c58131_stani-p-500.png
           loading: lazy
-    - quote: Eiusmod dolor aute ut nulla pariatur officia consequat aute amet exercitation.
+    - quote: High-speed financial applications are the norm for Web2, and for Web3 to compete and have parity with Web2, you do need a high-speed chain. Avalanche gets us closer and closer and possibly arriving at parity with the speed of Web2 systems.
       author:
-        name: Chace Rodgers
-        description: CEO at Company
+        name: sergey nazarov
+        description: Co-Founder, Chainlink Labs
         avatar:
-          src: https://i.pravatar.cc/120?img=7
+          src: https://assets-global.website-files.com/632993e1d1acbfa5635afd0b/636c17b9a8793e98858f10c6_download%20(1).jpeg
           loading: lazy
-    - quote: Id duis velit enim officia ad nisi incididunt magna ex dolor minim deserunt dolor. Esse incididunt cillum nostrud esse do quis amet labore amet nulla eiusmod amet nulla Lorem. Incididunt ex voluptate irure officia laboris ea proident est qui.
+    - quote: It is hugely rewarding for us to work with Avalanche, to underpin the security of a network that will facilitate trade across different financial assets at speed
       author:
-        name: Cornelius Sheppard
-        description: CEO at Company
+        name: Dmitry Tokarev
+        description: CEO of Copper
         avatar:
-          src: https://i.pravatar.cc/120?img=3
+          src: https://assets-global.website-files.com/632993e1d1acbfa5635afd0b/636c1777c0f5759effd3d20b_download.jpeg
           loading: lazy
-    - quote: Velit consectetur in adipisicing culpa eiusmod commodo eu ex dolore. Officia irure nisi dolor dolore velit fugiat. Aliqua sint aliqua aute elit eu sunt.
+    - quote: The Lemonade Crypto Climate Coalition is built end-to-end on the blockchain, it utilizes strategies that would be impossible with regular technology. Just because it’s on-chain doesn’t mean it’s complicated. Building on Avalanche was seamless.
       author:
-        name: Destinee Woods
-        description: CEO at Company
+        name: Roy confino
+        description: Head of Strategy and Operations, Lemonade Foundation
         avatar:
-          src: https://i.pravatar.cc/120?img=5
+          src: https://assets-global.website-files.com/632993e1d1acbfa5635afd0b/64260433c7956cd23e90d6c9_1647760168748.jpeg
           loading: lazy
-    - quote: Proident quis deserunt qui ex exercitation veniam id Lorem est cupidatat ipsum irure aliquip ad.
-      author:
-        name: Kaleb Mccormick
-        description: CEO at Company
-        avatar:
-          src: https://i.pravatar.cc/120?img=8
-          loading: lazy
-    - quote: Magna officia quis ea ea in officia non voluptate ipsum culpa do labore sunt. Aute est dolore commodo sint officia ad laboris dolor magna aliquip exercitation tempor commodo.
-      author:
-        name: Jazmin Mccall
-        description: CEO at Company
-        avatar:
-          src: https://i.pravatar.cc/120?img=9
-          loading: lazy
+    # - quote: Proident quis deserunt qui ex exercitation veniam id Lorem est cupidatat ipsum irure aliquip ad.
+    #   author:
+    #     name: Kaleb Mccormick
+    #     description: CEO at Company
+    #     avatar:
+    #       src: https://i.pravatar.cc/120?img=8
+    #       loading: lazy
+    # - quote: Magna officia quis ea ea in officia non voluptate ipsum culpa do labore sunt. Aute est dolore commodo sint officia ad laboris dolor magna aliquip exercitation tempor commodo.
+    #   author:
+    #     name: Jazmin Mccall
+    #     description: CEO at Company
+    #     avatar:
+    #       src: https://i.pravatar.cc/120?img=9
+    #       loading: lazy
 cta:
-  title: Get started today
-  description: Nisi mollit id aliquip sunt est laborum sit sit.
+  title: JOIN WEB3's MOST VIBRANT COMMUNITY
+  description: Find the answers, connections, and info you need to accelerate your Web3 aspirations.
   links:
-    - label: Sign up for free
+    - label: Join the Discord
       size: xl
+      to: https://discord.com/invite/RwXY7P6
 faq:
   title: Frequently asked questions
   description: Culpa consectetur dolor pariatur commodo aliqua amet tempor nisi enim deserunt elit cillum.
   items:
-    - label: Is this a secure service?
+    - label: Where can I start?
       content: Qui sunt nostrud aliquip reprehenderit enim proident veniam magna aliquip velit occaecat eiusmod nisi deserunt sunt.
       defaultOpen: true
-    - label: How can I cancel my subscription?
+    - label: How can I buy $AVAX?
       content: Consectetur irure Lorem nostrud adipisicing aliqua mollit Lorem sit officia magna eiusmod cupidatat.
-    - label: How does the free trial work?
-      content: Quis officia commodo magna eu qui aliquip duis.
-    - label: Can I switch plans later?
-      content: Dolore irure ullamco dolore eu occaecat magna eiusmod dolor aliqua culpa labore.
-    - label: Do you offer refunds?
-      content: Duis mollit nostrud voluptate mollit Lorem dolore commodo veniam incididunt eiusmod.
-    - label: Do you offer support?
-      content: Aliqua sit nisi consequat pariatur Lorem minim irure qui.
+    # - label: How does the free trial work?
+    #   content: Quis officia commodo magna eu qui aliquip duis.
+    # - label: Can I switch plans later?
+    #   content: Dolore irure ullamco dolore eu occaecat magna eiusmod dolor aliqua culpa labore.
+    # - label: Do you offer refunds?
+    #   content: Duis mollit nostrud voluptate mollit Lorem dolore commodo veniam incididunt eiusmod.
+    # - label: Do you offer support?
+    #   content: Aliqua sit nisi consequat pariatur Lorem minim irure qui.

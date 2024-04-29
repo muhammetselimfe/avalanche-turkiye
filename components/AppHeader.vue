@@ -3,17 +3,17 @@ const nuxtApp = useNuxtApp()
 const { activeHeadings, updateHeadings } = useScrollspy()
 
 const links = computed(() => [{
-  label: 'Features',
+  label: 'Neden Avalanche?',
   to: '#features',
   icon: 'i-heroicons-cube-transparent',
   active: activeHeadings.value.includes('features') && !activeHeadings.value.includes('pricing')
 }, {
-  label: 'Pricing',
+  label: 'Önemli Noktalar',
   to: '#pricing',
   icon: 'i-heroicons-credit-card',
   active: activeHeadings.value.includes('pricing') && !activeHeadings.value.includes('testimonials')
 }, {
-  label: 'Testimonials',
+  label: 'Görüşler',
   to: '#testimonials',
   icon: 'i-heroicons-academic-cap',
   active: activeHeadings.value.includes('testimonials')
@@ -37,8 +37,8 @@ nuxtApp.hooks.hookOnce('page:finish', () => {
 <template>
   <UHeader :links="links">
     <template #logo>
-      Nuxt UI Pro <UBadge
-        label="Landing"
+      Avalanche Türkiye <UBadge
+        label="🔺"
         variant="subtle"
         class="mb-0.5"
       />
@@ -46,7 +46,7 @@ nuxtApp.hooks.hookOnce('page:finish', () => {
 
     <template #right>
       <UButton
-        label="Sign in"
+        label="Avalanche Quiz"
         color="white"
         variant="ghost"
         trailing-icon="i-heroicons-arrow-right-20-solid"

@@ -26,7 +26,7 @@ const links = [{
   children: [{
     label: 'About'
   }, {
-    label: 'Pricing'
+    label: 'Press'
   }, {
     label: 'Careers'
   }, {
@@ -98,7 +98,7 @@ function onSubmit() {
       <UColorModeButton size="sm" />
 
       <UButton
-        to="https://github.com/nuxt-ui-pro/landing"
+        to="https://github.com/muhammetselimfe/avalanche-turkiye"
         target="_blank"
         icon="i-simple-icons-github"
         aria-label="GitHub"
