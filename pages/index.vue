@@ -1,12 +1,22 @@
 <script setup lang="ts">
-const { data: page } = await useAsyncData('index', () => queryContent('/').findOne())
+const { data: page } = await useAsyncData("index", () =>
+  queryContent("/").findOne()
+);
 
 useSeoMeta({
   title: page.value.title,
   ogTitle: page.value.title,
   description: page.value.description,
-  ogDescription: page.value.description
-})
+  ogDescription: page.value.description,
+});
+
+const socials = [
+  "https://twitter.com/avalanche_tr",
+  "https://www.youtube.com/@AvalancheTurkiye",
+  "https://www.reddit.com/r/Avax/",
+  "https://t.me/avalanche_tr",
+  "https://www.linkedin.com/company/avalancheavax",
+];
 </script>
 
 <template>
@@ -47,16 +57,18 @@ useSeoMeta({
 
       <ImagePlaceholder />
 
-      <ULandingLogos
-        :title="page.logos.title"
-        align="center"
-      >
-        <UIcon
+      <ULandingLogos :title="page.logos.title" align="center">
+        <a
           v-for="icon in page.logos.icons"
           :key="icon"
-          :name="icon"
-          class="w-12 h-12 lg:w-16 lg:h-16 flex-shrink-0 text-gray-900 dark:text-white"
-        />
+          :href="socials[page.logos.icons.indexOf(icon)]"
+          target="_blank"
+        >
+          <UIcon
+            :name="icon"
+            class="w-12 h-12 lg:w-16 lg:h-16 flex-shrink-0 text-gray-900 dark:text-white"
+          />
+        </a>
       </ULandingLogos>
     </ULandingHero>
 
@@ -114,11 +126,10 @@ useSeoMeta({
       </UPageColumns>
     </ULandingSection>
 
-    <ULandingSection class="bg-primary-50 dark:bg-primary-400 dark:bg-opacity-10">
-      <ULandingCTA
-        v-bind="page.cta"
-        :card="false"
-      />
+    <ULandingSection
+      class="bg-primary-50 dark:bg-primary-400 dark:bg-opacity-10"
+    >
+      <ULandingCTA v-bind="page.cta" :card="false" />
     </ULandingSection>
 
     <ULandingSection
@@ -134,9 +145,9 @@ useSeoMeta({
           button: {
             label: 'font-semibold',
             trailingIcon: {
-              base: 'w-6 h-6'
-            }
-          }
+              base: 'w-6 h-6',
+            },
+          },
         }"
         class="max-w-4xl mx-auto"
       />

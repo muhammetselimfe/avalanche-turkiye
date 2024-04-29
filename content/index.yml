@@ -1,5 +1,5 @@
 title: Avalanche Türkiye 🔺
-description: Nuxt UI Pro is a collection of premium Vue components built on top of Nuxt UI to create beautiful & responsive Nuxt applications in minutes.
+description: Avalanche to the moon 
 hero:
   title: CREATE WITHOUT LIMITS
   description: Sizi yarı yolda bırakmayacak, ışık hızında, ölçeklenebilir blockchain üzerinde istediğiniz her şeyi, istediğiniz şekilde oluşturun. Yanlış blockchain'i seçmek dApp'inizi başarılı olma şansı bulamadan yok edebilir, ancak bu şekilde olmak zorunda değildir. Avalanche'ı güvenle başlatın.
@@ -17,16 +17,16 @@ hero:
       icon: i-simple-icons-github
       size: xl
       color: gray
-      to: https://github.com/muhammetselimfe/avalanche-turkiye
+      to: https://github.com/ava-labs
       target: _blank
 logos:
-  title: Trusted by the world's best
+  title: Bizi Sosyal Medyada Takip Etmeyi Unutmayın!
   icons:
-    - i-simple-icons-amazonaws
-    - i-simple-icons-heroku
-    - i-simple-icons-netlify
-    - i-simple-icons-vercel
-    - i-simple-icons-cloudflare
+    - i-simple-icons-twitter
+    - i-simple-icons-youtube
+    - i-simple-icons-reddit
+    - i-simple-icons-telegram
+    - i-simple-icons-linkedin
 features:
   headline: Neden Avalanche?
   title: WEB3 geliştirme için neden Avalanche'ı seçmelisiniz?
